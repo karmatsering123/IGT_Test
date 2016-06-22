@@ -4,10 +4,10 @@ Interview Code test
 #Features
 <b>Complexity - understandability</b>
 Use of architectural frameworks/libraries/tools:
-1 Retrofit 2
-2 Dagger 2
-3 Glide image loading 
-4 RxJava
+1 Retrofit 2</br>
+2 Dagger 2</br>
+3 RxJava </br>
+4 MVP design pattern</br>
 
 <b>None</b>
 Conceptual complexity </br>
