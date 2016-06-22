@@ -3,7 +3,7 @@ Interview Code test
 
 #Features
 <b>Complexity - understandability</b>
-Use of architectural frameworks/libraries/tools:
+Use of architectural frameworks/libraries/tools:</br>
 1 Retrofit 2</br>
 2 Dagger 2</br>
 3 RxJava </br>
