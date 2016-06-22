@@ -1,6 +1,29 @@
 # IGT_Test
 Interview Code test
 
+### Summary
+
+This code showcases a simple implementation of the Model-View-Presenter pattern with no architectural
+frameworks. It uses manual dependency injection to provide a repository with
+local and remote data sources. Asynchronous tasks are handled with callbacks.
+
+<img src="https://github.com/googlesamples/android-architecture/wiki/images/mvp.png" alt="Diagram"/>
+
+Note: in a MVP context, the term "view" is overloaded:
+
+  * The class android.view.View will be referred to as "Android View"
+  * The view that receives commands from a presenter in MVP, will be simply called
+"view".
+
+### Fragments
+
+It uses fragments for two reasons:
+
+  * The separation between Activity and Fragment fits nicely with this
+implementation of MVP: the Activity is the overall controller that creates and
+connects views and presenters.
+  * Tablet layout or screens with multiple views take advantage of the Fragments
+framework.
 #Features
 <b>Complexity - understandability</b>
 Use of architectural frameworks/libraries/tools:</br>
